@@ -10,5 +10,5 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["node", "batch-listener.js"]
+CMD ["node", "batch-listner.js"]
 
