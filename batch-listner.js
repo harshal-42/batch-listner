@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 
 
-app.post('/batch', (req, res) => {
+app.post('/', (req, res) => {
 
   const message = req.body.data;
 
